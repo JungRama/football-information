@@ -47,7 +47,6 @@ export default {
     },
     methods:{
         getData(){
-            console.log('test')
             this.loading = true
             let self = this
             HTTP.get(`competitions/CL/matches`)
