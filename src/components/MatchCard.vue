@@ -94,7 +94,7 @@ export default {
     },
     methods:{
         formatScore(score){
-            return score==null?0:score
+            return score == null ? 0 : score
         },
         longText(text){
             return text.length>20?text.substring(0, 20) + '...' : text
@@ -111,7 +111,7 @@ export default {
         async addToFavorite(){
             let self = this
             const data = {
-                type : "MATCH",
+                type : 'Match',
                 favoriteID : self.data.id
             }
 

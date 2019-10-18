@@ -74,10 +74,10 @@
 <script>
 import MatchCard from '@/components/MatchCard'
 import TeamCard from '@/components/TeamCard'
-import {HTTP} from '@/http-request';
+import { HTTP } from '@/http-request';
 export default {
-    data(){
-        return{
+    data () {
+        return {
             loading: true,
             colorx: 'success',
             favoriteMatches: [],
@@ -85,11 +85,11 @@ export default {
             matchday: 1
         }
     },
-    components:{
+    components: {
         MatchCard,
         TeamCard
     },
-    methods:{
+    methods: {
         async getDataTeam(){
             let self = this
 
@@ -148,7 +148,7 @@ export default {
         },
 
     },
-    created(){
+    created() {
         this.getDataMatch()
         this.getDataTeam()
     }

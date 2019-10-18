@@ -34,10 +34,10 @@
 
 <script>
 import MatchCard from '@/components/MatchCard'
-import {HTTP} from '@/http-request';
+import { HTTP } from '@/http-request';
 export default {
-    data(){
-        return{
+    data () {
+        return {
             matches: [],
             loading: true,
         }
@@ -55,7 +55,7 @@ export default {
                 self.loading = false
             })
             .catch(error => {
-                console.log(error);
+                console.log(error)
             })
         }
     },

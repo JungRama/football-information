@@ -34,10 +34,10 @@
 
 <script>
 import TeamCard from '@/components/TeamCard'
-import {HTTP} from '@/http-request';
+import { HTTP } from '@/http-request';
 export default {
-    data(){
-        return{
+    data () {
+        return {
             teams: [],
             loading: true,
         }
