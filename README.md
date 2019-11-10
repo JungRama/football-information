@@ -1,4 +1,6 @@
 # Football Match and Teams Information
+This project using vue.js 2 and cli 3.
+api from http://api.football-data.org/ (public)
 
 ## Project setup
 ```
