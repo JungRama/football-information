@@ -1,6 +1,9 @@
 # Football Match and Teams Information
-This project using vue.js 2 and cli 3. \n
-api from http://api.football-data.org/ (public)
+```
+This project using vue.js 2 and cli 3.
+API from http://api.football-data.org/ (public)
+See the setup below to run the app
+```
 
 ## Project setup
 ```
@@ -27,5 +30,3 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
